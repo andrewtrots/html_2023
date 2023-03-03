@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Sample</title>
+  </head>
+  <body>
+    <header>
+      <h1>Form Sample</h1>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+      <form action="https://formspree.io/f/xqkobyod" method="POST">
+        <label>
+          Client Name:
+          <input
+            type="text"
+            name="cline-name"
+            placeholder="Client Name"
+            required
+          />
+        </label>
+        <label>
+          Client Email:
+          <input
+            type="email"
+            name="client-email"
+            placeholder="Client Email"
+            required
+          />
+        </label>
+        <label>
+          <br />
+          <label>Gender:</label>
+          <label>
+            <input type="radio" name="gender" value="male" /> Male
+          </label>
+          <label>
+            <input type="radio" name="gender" value="female" /> Female
+          </label>
+          <label>
+            <input type="radio" name="gender" value="other" /> Other
+          </label>
+        </label>
+        <br />
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </main>
+  </body>
+</html>
